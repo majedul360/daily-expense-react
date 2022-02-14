@@ -1,0 +1,38 @@
+.expense-iteam {
+    display: flex;
+    align-items: center;
+    padding: 1rem 7%;
+    margin:3rem 0;
+    background: #34495e;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.25);
+    border-radius: .5rem;
+}
+
+.expense-iteam-description {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+.expense-iteam-description h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.expense-iteam-price {
+    margin-left: auto;
+    background-color: #30336b;
+    color: white;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    font-size:2rem;
+    font-weight: bold;
+    border: .1rem solid white;
+    margin-right: 1rem;
+}
+
+.expense-iteam input {
+    margin-right: 2rem;
+    padding: 1rem 0;
+}
